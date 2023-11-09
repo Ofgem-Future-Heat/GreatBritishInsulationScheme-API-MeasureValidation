@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{820442A1-44C9-4D47-A823-04C6BF27DF55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.MeasureValidation.Application", "src\Ofgem.API.GBI.MeasureValidation.Application\Ofgem.API.GBI.MeasureValidation.Application.csproj", "{CCDDA814-D5FE-43E6-8D39-2A1D00F8AD88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.MeasureValidation.Infrastructure", "src\Ofgem.API.GBI.MeasureValidation.Infrastructure\Ofgem.API.GBI.MeasureValidation.Infrastructure.csproj", "{6AAD5D8D-8981-444B-BE7E-BEA85EB2D2A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.MeasureValidation.Domain", "src\Ofgem.API.GBI.MeasureValidation.Domain\Ofgem.API.GBI.MeasureValidation.Domain.csproj", "{A415F7ED-BC8B-4ADB-98DD-9BCB06EC2F2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.MeasureValidation.Service", "src\Ofgem.API.GBI.MeasureValidation.Service\Ofgem.API.GBI.MeasureValidation.Service.csproj", "{09D2B90B-E52D-4888-911D-4B139EF06924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{94561828-8D62-4AC6-AE45-426ECF32BFCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.MeasureValidation.Api", "src\Ofgem.API.GBI.MeasureValidation.Api\Ofgem.API.GBI.MeasureValidation.Api.csproj", "{3694C122-60B3-4DE8-AED5-383169049202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.MeasureValidation.Api.UnitTests", "tests\Ofgem.API.GBI.MeasureValidation.Api.UnitTests\Ofgem.API.GBI.MeasureValidation.Api.UnitTests.csproj", "{7EB70156-D162-417E-8EF5-B660E758E84D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofgem.API.GBI.MeasureValidation.Service.UnitTests", "tests\Ofgem.API.GBI.MeasureValidation.Service.UnitTests\Ofgem.API.GBI.MeasureValidation.Service.UnitTests.csproj", "{423E64C8-71DB-4B66-BECB-32FCBB4ACD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofgem.API.GBI.MeasureValidation.Infrastructure.UnitTests", "tests\Ofgem.API.GBI.MeasureValidation.Infrastructure.UnitTests\Ofgem.API.GBI.MeasureValidation.Infrastructure.UnitTests.csproj", "{3A58A33E-FAB7-4B21-83EA-BDDCD6D99BB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDDA814-D5FE-43E6-8D39-2A1D00F8AD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDDA814-D5FE-43E6-8D39-2A1D00F8AD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDDA814-D5FE-43E6-8D39-2A1D00F8AD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDDA814-D5FE-43E6-8D39-2A1D00F8AD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAD5D8D-8981-444B-BE7E-BEA85EB2D2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAD5D8D-8981-444B-BE7E-BEA85EB2D2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAD5D8D-8981-444B-BE7E-BEA85EB2D2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAD5D8D-8981-444B-BE7E-BEA85EB2D2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A415F7ED-BC8B-4ADB-98DD-9BCB06EC2F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A415F7ED-BC8B-4ADB-98DD-9BCB06EC2F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A415F7ED-BC8B-4ADB-98DD-9BCB06EC2F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A415F7ED-BC8B-4ADB-98DD-9BCB06EC2F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D2B90B-E52D-4888-911D-4B139EF06924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D2B90B-E52D-4888-911D-4B139EF06924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D2B90B-E52D-4888-911D-4B139EF06924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D2B90B-E52D-4888-911D-4B139EF06924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3694C122-60B3-4DE8-AED5-383169049202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3694C122-60B3-4DE8-AED5-383169049202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3694C122-60B3-4DE8-AED5-383169049202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3694C122-60B3-4DE8-AED5-383169049202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB70156-D162-417E-8EF5-B660E758E84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB70156-D162-417E-8EF5-B660E758E84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB70156-D162-417E-8EF5-B660E758E84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB70156-D162-417E-8EF5-B660E758E84D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423E64C8-71DB-4B66-BECB-32FCBB4ACD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423E64C8-71DB-4B66-BECB-32FCBB4ACD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423E64C8-71DB-4B66-BECB-32FCBB4ACD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423E64C8-71DB-4B66-BECB-32FCBB4ACD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A58A33E-FAB7-4B21-83EA-BDDCD6D99BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A58A33E-FAB7-4B21-83EA-BDDCD6D99BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A58A33E-FAB7-4B21-83EA-BDDCD6D99BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A58A33E-FAB7-4B21-83EA-BDDCD6D99BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCDDA814-D5FE-43E6-8D39-2A1D00F8AD88} = {820442A1-44C9-4D47-A823-04C6BF27DF55}
+		{6AAD5D8D-8981-444B-BE7E-BEA85EB2D2A5} = {820442A1-44C9-4D47-A823-04C6BF27DF55}
+		{A415F7ED-BC8B-4ADB-98DD-9BCB06EC2F2A} = {820442A1-44C9-4D47-A823-04C6BF27DF55}
+		{09D2B90B-E52D-4888-911D-4B139EF06924} = {820442A1-44C9-4D47-A823-04C6BF27DF55}
+		{3694C122-60B3-4DE8-AED5-383169049202} = {820442A1-44C9-4D47-A823-04C6BF27DF55}
+		{7EB70156-D162-417E-8EF5-B660E758E84D} = {94561828-8D62-4AC6-AE45-426ECF32BFCE}
+		{423E64C8-71DB-4B66-BECB-32FCBB4ACD08} = {94561828-8D62-4AC6-AE45-426ECF32BFCE}
+		{3A58A33E-FAB7-4B21-83EA-BDDCD6D99BB3} = {94561828-8D62-4AC6-AE45-426ECF32BFCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8323383F-5AEA-4872-8595-E172F2B21316}
+	EndGlobalSection
+EndGlobal

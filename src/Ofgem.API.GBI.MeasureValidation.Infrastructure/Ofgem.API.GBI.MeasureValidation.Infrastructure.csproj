@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.15.0" />
+    <PackageReference Include="MassTransit" Version="8.0.16" />
+    <PackageReference Include="EFCore.BulkExtensions" Version="6.4.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Ofgem.Database.GBI.Measures.Domain" Version="0.0.120" />
+    <PackageReference Include="Ofgem.Database.GBI.Measures.Domain.Dtos" Version="0.0.120" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ofgem.API.GBI.MeasureValidation.Application\Ofgem.API.GBI.MeasureValidation.Application.csproj" />
+    <ProjectReference Include="..\Ofgem.API.GBI.MeasureValidation.Domain\Ofgem.API.GBI.MeasureValidation.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

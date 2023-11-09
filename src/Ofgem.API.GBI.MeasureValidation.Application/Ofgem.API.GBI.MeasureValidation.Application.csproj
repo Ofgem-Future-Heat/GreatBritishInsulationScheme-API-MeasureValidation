@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="DotNetRuleEngine" Version="4.0.7" />
+    <PackageReference Include="Ofgem.Database.GBI.Measures.Domain" Version="0.0.120" />
+    <PackageReference Include="Ofgem.Database.GBI.Measures.Domain.Dtos" Version="0.0.120" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ofgem.API.GBI.MeasureValidation.Domain\Ofgem.API.GBI.MeasureValidation.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
